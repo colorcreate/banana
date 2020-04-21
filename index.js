@@ -77,6 +77,7 @@
                     generateBananas()
                 }, 1000/60)
             }, 3500)
+            isPlay = true
         } else if(e.code == "Enter"){
             isFall = !isFall
         }
